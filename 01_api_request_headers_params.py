@@ -1,7 +1,7 @@
 import requests
 
 # Your Weatherstack API Key
-api_key = "eb3a621ca0e4d3d35eb96aaf920a4597"
+api_key = "Your API Key"
 city = input("Enter name of the city: ")
 
 # API endpoint with parameters
