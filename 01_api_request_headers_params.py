@@ -18,7 +18,7 @@ response = requests.get(url, headers=headers)
 
 # Check response
 if response.status_code == 200:
-    data = response.json()
+    data = response.json()          # This line is used to convert the JSON response from the API into a Python dictionary so we can work with it easily.
     
     if "current" in data:
         temperature = data["current"]["temperature"]
